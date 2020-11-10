@@ -16,378 +16,1206 @@ $EndDescr
 $Comp
 L quicklogicBoardsSympbols:QuickFeather J1
 U 1 1 5F99F9F5
-P 2100 3700
-F 0 "J1" H 2700 6465 50  0000 C CNN
-F 1 "QuickFeather" H 2700 6374 50  0000 C CNN
-F 2 "quicklogicBoards-footprints:quickfeather" H 2700 6400 50  0001 C CNN
-F 3 "" H 2700 6400 50  0001 C CNN
-	1    2100 3700
+P 6100 3400
+F 0 "J1" H 6700 6165 50  0000 C CNN
+F 1 "QuickFeather" H 6700 6074 50  0000 C CNN
+F 2 "quicklogicBoards-footprints:quickfeather" H 6700 6100 50  0001 C CNN
+F 3 "" H 6700 6100 50  0001 C CNN
+	1    6100 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L quicklogicBoardsSympbols:QuickFeather J4
 U 1 1 5F9A0FF2
-P 5100 3700
-F 0 "J4" H 5700 6465 50  0000 C CNN
-F 1 "QuickFeather" H 5700 6374 50  0000 C CNN
-F 2 "quicklogicBoards-footprints:quickfeather" H 5700 6400 50  0001 C CNN
-F 3 "" H 5700 6400 50  0001 C CNN
-	1    5100 3700
+P 9100 3400
+F 0 "J4" H 9700 6165 50  0000 C CNN
+F 1 "QuickFeather" H 9700 6074 50  0000 C CNN
+F 2 "quicklogicBoards-footprints:quickfeather" H 9700 6100 50  0001 C CNN
+F 3 "" H 9700 6100 50  0001 C CNN
+	1    9100 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L quicklogicBoardsSympbols:UDA1334 J5
 U 1 1 5F9A2931
-P 8150 2200
-F 0 "J5" H 8150 3465 50  0000 C CNN
-F 1 "UDA1334" H 8150 3374 50  0000 C CNN
-F 2 "quicklogicBoards-footprints:uda1334" H 8150 2100 50  0001 C CNN
-F 3 "" H 8150 2100 50  0001 C CNN
-	1    8150 2200
+P 1150 1900
+F 0 "J5" H 1150 3165 50  0000 C CNN
+F 1 "UDA1334" H 1150 3074 50  0000 C CNN
+F 2 "quicklogicBoards-footprints:uda1334" H 1150 1800 50  0001 C CNN
+F 3 "" H 1150 1800 50  0001 C CNN
+	1    1150 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L quicklogicBoardsSympbols:1x4_Conn J2
 U 1 1 5F9A4360
-P 2150 5000
-F 0 "J2" H 2230 5500 50  0000 L CNN
-F 1 "1x4_Conn" H 2230 5409 50  0000 L CNN
-F 2 "quicklogicBoards-footprints:1x4_Conn" H 2150 5700 50  0001 C CNN
-F 3 "" H 2150 5700 50  0001 C CNN
-	1    2150 5000
+P 7050 4300
+F 0 "J2" H 7130 4800 50  0000 L CNN
+F 1 "H_UART" H 7130 4709 50  0000 L CNN
+F 2 "quicklogicBoards-footprints:1x4_Conn" H 7050 5000 50  0001 C CNN
+F 3 "" H 7050 5000 50  0001 C CNN
+	1    7050 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L quicklogicBoardsSympbols:1x4_Conn J3
 U 1 1 5F9A4CE9
-P 2150 5600
-F 0 "J3" H 2230 6100 50  0000 L CNN
-F 1 "1x4_Conn" H 2230 6009 50  0000 L CNN
-F 2 "quicklogicBoards-footprints:1x4_Conn" H 2150 6300 50  0001 C CNN
-F 3 "" H 2150 6300 50  0001 C CNN
-	1    2150 5600
+P 10050 4300
+F 0 "J3" H 10130 4800 50  0000 L CNN
+F 1 "D_UART" H 10130 4709 50  0000 L CNN
+F 2 "quicklogicBoards-footprints:1x4_Conn" H 10050 5000 50  0001 C CNN
+F 3 "" H 10050 5000 50  0001 C CNN
+	1    10050 4300
 	1    0    0    -1  
 $EndComp
-Text Notes 2900 2250 0    50   ~ 0
+Text Notes 6900 1950 0    50   ~ 0
 HOST
-Text Notes 5850 2250 0    50   ~ 0
+Text Notes 9850 1950 0    50   ~ 0
 DEVICE
 Wire Wire Line
-	1400 3100 2000 3100
-Text Label 1400 3100 0    50   ~ 0
+	5400 2800 6000 2800
+Text Label 5400 2800 0    50   ~ 0
 SPI_CLK
 Wire Wire Line
-	1400 3300 2000 3300
-Text Label 1400 3300 0    50   ~ 0
+	5400 3000 6000 3000
+Text Label 5400 3000 0    50   ~ 0
 SPI_MISO
 Wire Wire Line
-	1400 3200 2000 3200
-Text Label 1400 3200 0    50   ~ 0
+	5400 2900 6000 2900
+Text Label 5400 2900 0    50   ~ 0
 SPI_MOSI
 Wire Wire Line
-	3400 2600 4000 2600
-Text Label 4000 2600 2    50   ~ 0
+	7400 2300 8000 2300
+Text Label 8000 2300 2    50   ~ 0
 SPI_CSn
 Wire Wire Line
-	3400 1700 4000 1700
-Text Label 4000 1700 2    50   ~ 0
+	7400 1400 8000 1400
+Text Label 8000 1400 2    50   ~ 0
 H2D_INT
 Wire Wire Line
-	3400 1500 4000 1500
-Text Label 4000 1500 2    50   ~ 0
+	7400 1200 8000 1200
+Text Label 8000 1200 2    50   ~ 0
 RESETn
 Wire Wire Line
-	1400 1600 2000 1600
-Text Label 1400 1600 0    50   ~ 0
+	5400 1300 6000 1300
+Text Label 5400 1300 0    50   ~ 0
 D2H_INT
 Wire Wire Line
-	1400 2900 2000 2900
-Text Label 1400 2900 0    50   ~ 0
+	5400 2600 6000 2600
+Text Label 5400 2600 0    50   ~ 0
 D2H_ACK
 Wire Wire Line
-	1400 2700 2000 2700
-Text Label 1400 2700 0    50   ~ 0
+	5400 2400 6000 2400
+Text Label 5400 2400 0    50   ~ 0
 H2D_ACK
 Wire Wire Line
-	1400 1200 2000 1200
-Text Label 1400 1200 0    50   ~ 0
+	5400 900  6000 900 
+Text Label 5400 900  0    50   ~ 0
 H3P3V
 $Comp
 L power:GND #PWR02
 U 1 1 5F9A43C0
-P 1900 3800
-F 0 "#PWR02" H 1900 3550 50  0001 C CNN
-F 1 "GND" H 1905 3627 50  0000 C CNN
-F 2 "" H 1900 3800 50  0001 C CNN
-F 3 "" H 1900 3800 50  0001 C CNN
-	1    1900 3800
+P 5900 3500
+F 0 "#PWR02" H 5900 3250 50  0001 C CNN
+F 1 "GND" H 5905 3327 50  0000 C CNN
+F 2 "" H 5900 3500 50  0001 C CNN
+F 3 "" H 5900 3500 50  0001 C CNN
+	1    5900 3500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 3600 1900 3600
+	6000 3300 5900 3300
 Wire Wire Line
-	1900 3600 1900 3800
+	5900 3300 5900 3500
 Wire Wire Line
-	2000 2400 1900 2400
+	6000 2100 5900 2100
 Wire Wire Line
-	1900 2400 1900 3600
-Connection ~ 1900 3600
+	5900 2100 5900 3300
+Connection ~ 5900 3300
 Wire Wire Line
-	3400 1200 3550 1200
+	7400 900  7550 900 
 Wire Wire Line
-	3550 1200 3550 2050
+	7550 900  7550 1750
 $Comp
 L power:GND #PWR03
 U 1 1 5F9A5EDD
-P 3550 2050
-F 0 "#PWR03" H 3550 1800 50  0001 C CNN
-F 1 "GND" H 3555 1877 50  0000 C CNN
-F 2 "" H 3550 2050 50  0001 C CNN
-F 3 "" H 3550 2050 50  0001 C CNN
-	1    3550 2050
+P 7550 1750
+F 0 "#PWR03" H 7550 1500 50  0001 C CNN
+F 1 "GND" H 7555 1577 50  0000 C CNN
+F 2 "" H 7550 1750 50  0001 C CNN
+F 3 "" H 7550 1750 50  0001 C CNN
+	1    7550 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 1600 4000 1600
-Text Label 4000 1600 2    50   ~ 0
+	7400 1300 8000 1300
+Text Label 8000 1300 2    50   ~ 0
 I2S_CLK
 Wire Wire Line
-	1400 1500 2000 1500
-Text Label 1400 1500 0    50   ~ 0
+	5400 1200 6000 1200
+Text Label 5400 1200 0    50   ~ 0
 I2S_WCLK
-NoConn ~ 3400 1300
-NoConn ~ 3400 1400
-NoConn ~ 3400 1800
-NoConn ~ 3400 1900
-NoConn ~ 2000 1300
-NoConn ~ 2000 1400
-NoConn ~ 2000 1700
-NoConn ~ 2000 1800
-NoConn ~ 2000 1900
-NoConn ~ 2000 2100
-NoConn ~ 2000 2200
-NoConn ~ 2000 2300
-NoConn ~ 2000 2500
-NoConn ~ 2000 2600
-NoConn ~ 2000 2800
-NoConn ~ 2000 3000
+NoConn ~ 7400 1000
+NoConn ~ 7400 1100
+NoConn ~ 7400 1500
+NoConn ~ 7400 1600
+NoConn ~ 6000 1000
+NoConn ~ 6000 1100
+NoConn ~ 6000 1400
+NoConn ~ 6000 1500
+NoConn ~ 6000 1600
+NoConn ~ 6000 1800
+NoConn ~ 6000 1900
+NoConn ~ 6000 2000
+NoConn ~ 6000 2200
+NoConn ~ 6000 2300
+NoConn ~ 6000 2500
+NoConn ~ 6000 2700
 Wire Wire Line
-	1400 3400 2000 3400
-Text Label 1400 3400 0    50   ~ 0
+	5400 3100 6000 3100
+Text Label 5400 3100 0    50   ~ 0
 H_TX
 Wire Wire Line
-	1400 3500 2000 3500
-Text Label 1400 3500 0    50   ~ 0
+	5400 3200 6000 3200
+Text Label 5400 3200 0    50   ~ 0
 H_RX
 Wire Wire Line
-	4400 3400 5000 3400
-Text Label 4400 3400 0    50   ~ 0
+	8400 3100 9000 3100
+Text Label 8400 3100 0    50   ~ 0
 D_TX
 Wire Wire Line
-	4400 3500 5000 3500
-Text Label 4400 3500 0    50   ~ 0
+	8400 3200 9000 3200
+Text Label 8400 3200 0    50   ~ 0
 D_RX
 $Comp
 L power:GND #PWR04
 U 1 1 5F9AB40B
-P 4900 3800
-F 0 "#PWR04" H 4900 3550 50  0001 C CNN
-F 1 "GND" H 4905 3627 50  0000 C CNN
-F 2 "" H 4900 3800 50  0001 C CNN
-F 3 "" H 4900 3800 50  0001 C CNN
-	1    4900 3800
+P 8900 3500
+F 0 "#PWR04" H 8900 3250 50  0001 C CNN
+F 1 "GND" H 8905 3327 50  0000 C CNN
+F 2 "" H 8900 3500 50  0001 C CNN
+F 3 "" H 8900 3500 50  0001 C CNN
+	1    8900 3500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 3600 4900 3600
+	9000 3300 8900 3300
 Wire Wire Line
-	4900 3600 4900 3800
+	8900 3300 8900 3500
 Wire Wire Line
-	6400 3200 7000 3200
-Text Label 7000 3200 2    50   ~ 0
+	10400 2900 11000 2900
+Text Label 11000 2900 2    50   ~ 0
 SPI_CLK
 Wire Wire Line
-	6400 3100 7000 3100
-Text Label 7000 3100 2    50   ~ 0
+	10400 2800 11000 2800
+Text Label 11000 2800 2    50   ~ 0
 SPI_MISO
 Wire Wire Line
-	6400 3000 7000 3000
-Text Label 7000 3000 2    50   ~ 0
+	10400 2700 11000 2700
+Text Label 11000 2700 2    50   ~ 0
 SPI_MOSI
 Wire Wire Line
-	6400 2900 7000 2900
-Text Label 7000 2900 2    50   ~ 0
+	10400 2600 11000 2600
+Text Label 11000 2600 2    50   ~ 0
 SPI_CSn
 Wire Wire Line
-	6400 1700 7000 1700
-Text Label 7000 1700 2    50   ~ 0
+	10400 1400 11000 1400
+Text Label 11000 1400 2    50   ~ 0
 D2H_ACK
 Wire Wire Line
-	6400 3300 7000 3300
-Text Label 7000 3300 2    50   ~ 0
+	10400 3000 11000 3000
+Text Label 11000 3000 2    50   ~ 0
 D2H_INT
 Wire Wire Line
-	6400 1800 7000 1800
-Text Label 7000 1800 2    50   ~ 0
+	10400 1500 11000 1500
+Text Label 11000 1500 2    50   ~ 0
 I2S_DOUT
 Wire Wire Line
-	4400 1600 5000 1600
-Text Label 4400 1600 0    50   ~ 0
+	8400 1300 9000 1300
+Text Label 8400 1300 0    50   ~ 0
 H2D_INT
 Wire Wire Line
-	4400 2900 5000 2900
-Text Label 4400 2900 0    50   ~ 0
+	8400 2600 9000 2600
+Text Label 8400 2600 0    50   ~ 0
 H2D_ACK
 Wire Wire Line
-	4400 2100 5000 2100
-Text Label 4400 2100 0    50   ~ 0
+	8400 1800 9000 1800
+Text Label 8400 1800 0    50   ~ 0
 RESETn
 Wire Wire Line
-	4400 1700 5000 1700
-Text Label 4400 1700 0    50   ~ 0
+	8400 1400 9000 1400
+Text Label 8400 1400 0    50   ~ 0
 I2S_CLK
 Wire Wire Line
-	4400 1800 5000 1800
-Text Label 4400 1800 0    50   ~ 0
+	8400 1500 9000 1500
+Text Label 8400 1500 0    50   ~ 0
 I2S_WCLK
 Wire Wire Line
-	6400 1600 7000 1600
-Text Label 7000 1600 2    50   ~ 0
+	10400 1300 11000 1300
+Text Label 11000 1300 2    50   ~ 0
 I2S_CLK
-NoConn ~ 5000 1200
-NoConn ~ 5000 1300
-NoConn ~ 5000 1400
-NoConn ~ 5000 1500
-NoConn ~ 5000 1900
-NoConn ~ 5000 2200
-NoConn ~ 5000 2300
-NoConn ~ 5000 2500
-NoConn ~ 5000 2600
-NoConn ~ 5000 2700
-NoConn ~ 5000 2800
-NoConn ~ 5000 3000
-NoConn ~ 5000 3100
-NoConn ~ 5000 3200
-NoConn ~ 5000 3300
-NoConn ~ 6400 1300
-NoConn ~ 6400 1400
-NoConn ~ 6400 1500
-NoConn ~ 6400 1900
-NoConn ~ 6400 2500
-NoConn ~ 6400 2600
-NoConn ~ 6400 2700
-NoConn ~ 6400 2800
-NoConn ~ 6400 3400
-NoConn ~ 6400 3500
+NoConn ~ 9000 1900
+NoConn ~ 9000 2000
+NoConn ~ 9000 2200
+NoConn ~ 9000 2300
+NoConn ~ 10400 1000
+NoConn ~ 10400 1200
+NoConn ~ 10400 2200
+NoConn ~ 10400 3100
 $Comp
 L power:GND #PWR05
 U 1 1 5F9C1881
-P 6500 2150
-F 0 "#PWR05" H 6500 1900 50  0001 C CNN
-F 1 "GND" H 6505 1977 50  0000 C CNN
-F 2 "" H 6500 2150 50  0001 C CNN
-F 3 "" H 6500 2150 50  0001 C CNN
-	1    6500 2150
+P 10500 1850
+F 0 "#PWR05" H 10500 1600 50  0001 C CNN
+F 1 "GND" H 10505 1677 50  0000 C CNN
+F 2 "" H 10500 1850 50  0001 C CNN
+F 3 "" H 10500 1850 50  0001 C CNN
+	1    10500 1850
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6400 3600
 Wire Wire Line
-	6400 1200 6500 1200
+	10400 900  10500 900 
 Wire Wire Line
-	6500 1200 6500 2150
+	10500 900  10500 1850
 Wire Wire Line
-	5000 2400 4900 2400
+	9000 2100 8900 2100
 Wire Wire Line
-	4900 2400 4900 3600
-Connection ~ 4900 3600
+	8900 2100 8900 3300
+Connection ~ 8900 3300
 Wire Wire Line
-	8550 1900 9150 1900
-Text Label 9150 1900 2    50   ~ 0
-H3P3V
+	1550 1600 2150 1600
+Text Label 2150 1600 2    50   ~ 0
+3P3V
 Wire Wire Line
-	8550 1700 9150 1700
-Text Label 9150 1700 2    50   ~ 0
+	1550 1400 2150 1400
+Text Label 2150 1400 2    50   ~ 0
 I2S_WCLK
 Wire Wire Line
-	8550 1600 9150 1600
-Text Label 9150 1600 2    50   ~ 0
+	1550 1300 2150 1300
+Text Label 2150 1300 2    50   ~ 0
 I2S_DOUT
 Wire Wire Line
-	8550 1500 9150 1500
-Text Label 9150 1500 2    50   ~ 0
+	1550 1200 2150 1200
+Text Label 2150 1200 2    50   ~ 0
 I2S_CLK
 $Comp
 L power:GND #PWR06
 U 1 1 5F9CD80A
-P 8700 2100
-F 0 "#PWR06" H 8700 1850 50  0001 C CNN
-F 1 "GND" H 8705 1927 50  0000 C CNN
-F 2 "" H 8700 2100 50  0001 C CNN
-F 3 "" H 8700 2100 50  0001 C CNN
-	1    8700 2100
+P 1700 1800
+F 0 "#PWR06" H 1700 1550 50  0001 C CNN
+F 1 "GND" H 1705 1627 50  0000 C CNN
+F 2 "" H 1700 1800 50  0001 C CNN
+F 3 "" H 1700 1800 50  0001 C CNN
+	1    1700 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8550 1800 8700 1800
+	1550 1500 1700 1500
 Wire Wire Line
-	8700 1800 8700 2100
-NoConn ~ 8550 1200
-NoConn ~ 8550 1300
-NoConn ~ 8550 1400
-NoConn ~ 8550 2000
-NoConn ~ 7750 1400
-NoConn ~ 7750 1500
-NoConn ~ 7750 1600
-NoConn ~ 7750 1700
-NoConn ~ 7750 1800
-NoConn ~ 7750 1900
+	1700 1500 1700 1800
+NoConn ~ 1550 900 
+NoConn ~ 1550 1000
+NoConn ~ 1550 1100
+NoConn ~ 1550 1700
+NoConn ~ 750  1100
+NoConn ~ 750  1200
+NoConn ~ 750  1300
+NoConn ~ 750  1400
+NoConn ~ 750  1500
+NoConn ~ 750  1600
 Wire Wire Line
-	1350 4500 1950 4500
-Text Label 1350 4500 0    50   ~ 0
+	6250 3800 6850 3800
+Text Label 6250 3800 0    50   ~ 0
 H_TX
 Wire Wire Line
-	1350 5100 1950 5100
-Text Label 1350 5100 0    50   ~ 0
+	9250 3800 9850 3800
+Text Label 9250 3800 0    50   ~ 0
 D_TX
 Wire Wire Line
-	1350 4600 1950 4600
-Text Label 1350 4600 0    50   ~ 0
+	6250 3900 6850 3900
+Text Label 6250 3900 0    50   ~ 0
 H_RX
 Wire Wire Line
-	1350 5200 1950 5200
-Text Label 1350 5200 0    50   ~ 0
+	9250 3900 9850 3900
+Text Label 9250 3900 0    50   ~ 0
 D_RX
 $Comp
 L power:GND #PWR01
 U 1 1 5F9E1108
-P 1800 5400
-F 0 "#PWR01" H 1800 5150 50  0001 C CNN
-F 1 "GND" H 1805 5227 50  0000 C CNN
-F 2 "" H 1800 5400 50  0001 C CNN
-F 3 "" H 1800 5400 50  0001 C CNN
-	1    1800 5400
+P 9700 4100
+F 0 "#PWR01" H 9700 3850 50  0001 C CNN
+F 1 "GND" H 9705 3927 50  0000 C CNN
+F 2 "" H 9700 4100 50  0001 C CNN
+F 3 "" H 9700 4100 50  0001 C CNN
+	1    9700 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 5300 1800 5300
+	9850 4000 9700 4000
 Wire Wire Line
-	1800 5300 1800 5400
+	9700 4000 9700 4100
 Wire Wire Line
-	1950 4700 1800 4700
+	6850 4000 6700 4000
+NoConn ~ 6850 3700
+NoConn ~ 9850 3700
+NoConn ~ 7400 2200
+NoConn ~ 7400 2400
+NoConn ~ 7400 2500
+NoConn ~ 7400 2600
+NoConn ~ 7400 2700
+NoConn ~ 7400 2800
+NoConn ~ 7400 2900
+NoConn ~ 7400 3000
+NoConn ~ 7400 3100
+$Comp
+L quicklogicBoardsSympbols:huzzah32 J8
+U 1 1 5FAA3496
+P 3150 2550
+F 0 "J8" H 3750 4465 50  0000 C CNN
+F 1 "huzzah32" H 3750 4374 50  0000 C CNN
+F 2 "quicklogicBoards-footprints:huzzah32" H 3725 4375 50  0001 C CNN
+F 3 "" H 3725 4375 50  0001 C CNN
+	1    3150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogicBoardsSympbols:2x6_Conn J9
+U 1 1 5FAA5562
+P 3700 4200
+F 0 "J9" H 3750 5025 50  0000 C CNN
+F 1 "Calaveras" H 3750 4934 50  0000 C CNN
+F 2 "quicklogicBoards-footprints:2x6_Conn" H 3800 4900 50  0001 C CNN
+F 3 "" H 3800 4900 50  0001 C CNN
+	1    3700 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogicBoardsSympbols:2x5_Conn J11
+U 1 1 5FAA6FDC
+P 3800 5300
+F 0 "J11" H 3750 6125 50  0000 C CNN
+F 1 "VM3011" H 3750 6034 50  0000 C CNN
+F 2 "quicklogicBoards-footprints:2x5_Conn" H 3800 6000 50  0001 C CNN
+F 3 "" H 3800 6000 50  0001 C CNN
+	1    3800 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogicBoardsSympbols:2x6_Conn J10
+U 1 1 5FAA9BE2
+P 3700 6450
+F 0 "J10" H 3750 7275 50  0000 C CNN
+F 1 "PMOD" H 3750 7184 50  0000 C CNN
+F 2 "quicklogicBoards-footprints:2x6_Conn" H 3800 7150 50  0001 C CNN
+F 3 "" H 3800 7150 50  0001 C CNN
+	1    3700 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogicBoardsSympbols:1x6_Conn J7
+U 1 1 5FAAB1BB
+P 1950 5300
+F 0 "J7" H 2030 5700 50  0000 L CNN
+F 1 "eSPI_Sensor" H 2030 5609 50  0000 L CNN
+F 2 "quicklogicBoards-footprints:1x6_pinhead" H 1950 6000 50  0001 C CNN
+F 3 "" H 1950 6000 50  0001 C CNN
+	1    1950 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FAACA21
+P 800 7550
+F 0 "H1" H 900 7596 50  0000 L CNN
+F 1 "MountingHole" H 900 7505 50  0000 L CNN
+F 2 "MPAD" H 800 7550 50  0001 C CNN
+F 3 "~" H 800 7550 50  0001 C CNN
+	1    800  7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogicBoardsSympbols:1x6_Conn J6
+U 1 1 5FAB261C
+P 1950 4200
+F 0 "J6" H 2030 4600 50  0000 L CNN
+F 1 "LIS2DH12" H 2030 4509 50  0000 L CNN
+F 2 "quicklogicBoards-footprints:1x6_Conn" H 1950 4900 50  0001 C CNN
+F 3 "" H 1950 4900 50  0001 C CNN
+	1    1950 4200
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	1800 4700 1800 5300
-Connection ~ 1800 5300
-NoConn ~ 1950 4400
-NoConn ~ 1950 5000
-NoConn ~ 3400 2500
-NoConn ~ 3400 2700
-NoConn ~ 3400 2800
-NoConn ~ 3400 2900
-NoConn ~ 3400 3000
-NoConn ~ 3400 3100
-NoConn ~ 3400 3200
-NoConn ~ 3400 3300
-NoConn ~ 3400 3400
-NoConn ~ 3400 3500
-NoConn ~ 3400 3600
+	2450 1950 3050 1950
+Text Label 2450 1950 0    50   ~ 0
+SPI_CLK
+Wire Wire Line
+	2450 2150 3050 2150
+Text Label 2450 2150 0    50   ~ 0
+SPI_MISO
+Wire Wire Line
+	2450 2050 3050 2050
+Text Label 2450 2050 0    50   ~ 0
+SPI_MOSI
+Wire Wire Line
+	4450 2250 5050 2250
+Text Label 5050 2250 2    50   ~ 0
+SPI_CSn
+Wire Wire Line
+	2450 1750 3050 1750
+Text Label 2450 1750 0    50   ~ 0
+D2H_ACK
+Wire Wire Line
+	2450 1850 3050 1850
+Text Label 2450 1850 0    50   ~ 0
+H2D_ACK
+Wire Wire Line
+	2450 1450 3050 1450
+Text Label 2450 1450 0    50   ~ 0
+H2D_INT
+Wire Wire Line
+	2450 1550 3050 1550
+Text Label 2450 1550 0    50   ~ 0
+D2H_INT
+Wire Wire Line
+	2450 1350 3050 1350
+Text Label 2450 1350 0    50   ~ 0
+RESETn
+Wire Wire Line
+	2450 1050 3050 1050
+Text Label 2450 1050 0    50   ~ 0
+H3V
+Wire Wire Line
+	4450 2350 5050 2350
+Text Label 5050 2350 2    50   ~ 0
+E_SCL
+Wire Wire Line
+	4450 2450 5050 2450
+Text Label 5050 2450 2    50   ~ 0
+E_SDA
+$Comp
+L power:GND #PWR09
+U 1 1 5FAF32F3
+P 2950 2700
+F 0 "#PWR09" H 2950 2450 50  0001 C CNN
+F 1 "GND" H 2955 2527 50  0000 C CNN
+F 2 "" H 2950 2700 50  0001 C CNN
+F 3 "" H 2950 2700 50  0001 C CNN
+	1    2950 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1250 2950 1250
+Wire Wire Line
+	2950 1250 2950 2700
+NoConn ~ 3050 950 
+NoConn ~ 3050 1150
+NoConn ~ 4450 1350
+NoConn ~ 4450 1450
+NoConn ~ 4450 1550
+NoConn ~ 4450 1650
+NoConn ~ 4450 1750
+NoConn ~ 4450 1850
+NoConn ~ 4450 1950
+NoConn ~ 4450 2050
+NoConn ~ 4450 2150
+NoConn ~ 3050 1650
+NoConn ~ 3050 2250
+NoConn ~ 3050 2350
+NoConn ~ 3050 2450
+Wire Wire Line
+	8400 900  9000 900 
+Text Label 8400 900  0    50   ~ 0
+D3P3V
+$Comp
+L power:GND #PWR016
+U 1 1 5FB40F41
+P 6700 4100
+F 0 "#PWR016" H 6700 3850 50  0001 C CNN
+F 1 "GND" H 6705 3927 50  0000 C CNN
+F 2 "" H 6700 4100 50  0001 C CNN
+F 3 "" H 6700 4100 50  0001 C CNN
+	1    6700 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4000 6700 4100
+Wire Wire Line
+	1150 3600 1750 3600
+Text Label 1150 3600 0    50   ~ 0
+INT1
+Wire Wire Line
+	1150 4000 1750 4000
+Text Label 1150 4000 0    50   ~ 0
+3P3V
+$Comp
+L power:GND #PWR07
+U 1 1 5FB688D2
+P 1600 4200
+F 0 "#PWR07" H 1600 3950 50  0001 C CNN
+F 1 "GND" H 1605 4027 50  0000 C CNN
+F 2 "" H 1600 4200 50  0001 C CNN
+F 3 "" H 1600 4200 50  0001 C CNN
+	1    1600 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 4100 1600 4100
+Wire Wire Line
+	1600 4100 1600 4200
+Wire Wire Line
+	1150 5200 1750 5200
+Text Label 1150 5200 0    50   ~ 0
+3P3V
+Wire Wire Line
+	1150 4700 1750 4700
+Text Label 1150 4700 0    50   ~ 0
+eSPI_CSn
+Wire Wire Line
+	1150 4800 1750 4800
+Text Label 1150 4800 0    50   ~ 0
+eSPI_MOSI
+Wire Wire Line
+	1150 4900 1750 4900
+Text Label 1150 4900 0    50   ~ 0
+eSPI_MISO
+Wire Wire Line
+	1150 5000 1750 5000
+Text Label 1150 5000 0    50   ~ 0
+eSPI_CLK
+$Comp
+L power:GND #PWR08
+U 1 1 5FB8504C
+P 1600 5300
+F 0 "#PWR08" H 1600 5050 50  0001 C CNN
+F 1 "GND" H 1605 5127 50  0000 C CNN
+F 2 "" H 1600 5300 50  0001 C CNN
+F 3 "" H 1600 5300 50  0001 C CNN
+	1    1600 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 5100 1600 5100
+Wire Wire Line
+	1600 5100 1600 5300
+Wire Wire Line
+	2900 3800 3500 3800
+Text Label 2900 3800 0    50   ~ 0
+PDM_CLK
+Wire Wire Line
+	2900 3900 3500 3900
+Text Label 2900 3900 0    50   ~ 0
+PDM_DATA
+Wire Wire Line
+	2900 4000 3500 4000
+Text Label 2900 4000 0    50   ~ 0
+3P3V
+$Comp
+L power:GND #PWR010
+U 1 1 5FBA2C59
+P 3400 4200
+F 0 "#PWR010" H 3400 3950 50  0001 C CNN
+F 1 "GND" H 3405 4027 50  0000 C CNN
+F 2 "" H 3400 4200 50  0001 C CNN
+F 3 "" H 3400 4200 50  0001 C CNN
+	1    3400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5FBA6888
+P 4100 4200
+F 0 "#PWR013" H 4100 3950 50  0001 C CNN
+F 1 "GND" H 4105 4027 50  0000 C CNN
+F 2 "" H 4100 4200 50  0001 C CNN
+F 3 "" H 4100 4200 50  0001 C CNN
+	1    4100 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3600 3400 3600
+Wire Wire Line
+	3400 3600 3400 4100
+Wire Wire Line
+	3500 4100 3400 4100
+Connection ~ 3400 4100
+Wire Wire Line
+	3400 4100 3400 4200
+Wire Wire Line
+	4000 3800 4100 3800
+Wire Wire Line
+	4100 3800 4100 4200
+NoConn ~ 3500 3700
+NoConn ~ 4000 3600
+NoConn ~ 4000 3700
+NoConn ~ 4000 3900
+NoConn ~ 4000 4000
+NoConn ~ 4000 4100
+Wire Wire Line
+	2900 4700 3500 4700
+Text Label 2900 4700 0    50   ~ 0
+PDM_CLK
+Wire Wire Line
+	2900 4800 3500 4800
+Text Label 2900 4800 0    50   ~ 0
+3P3V
+Wire Wire Line
+	2900 4900 3500 4900
+Text Label 2900 4900 0    50   ~ 0
+PDM_DATA
+Wire Wire Line
+	2900 5000 3500 5000
+Text Label 2900 5000 0    50   ~ 0
+WOS
+Wire Wire Line
+	3500 5100 3400 5100
+Wire Wire Line
+	3400 5100 3400 5250
+Wire Wire Line
+	4000 4900 4100 4900
+Wire Wire Line
+	4100 4900 4100 5250
+Wire Wire Line
+	4000 4700 4100 4700
+Wire Wire Line
+	4100 4700 4100 4800
+Connection ~ 4100 4900
+Wire Wire Line
+	4000 4800 4100 4800
+Connection ~ 4100 4800
+Wire Wire Line
+	4100 4800 4100 4900
+Wire Wire Line
+	2900 5850 3500 5850
+Text Label 2900 5850 0    50   ~ 0
+SPIm_CS2n
+Wire Wire Line
+	2900 5950 3500 5950
+Text Label 2900 5950 0    50   ~ 0
+SPIm_MOSI
+Wire Wire Line
+	2900 6050 3500 6050
+Text Label 2900 6050 0    50   ~ 0
+SPIm_MISO
+Wire Wire Line
+	2900 6150 3500 6150
+Text Label 2900 6150 0    50   ~ 0
+SPIm_CLK
+Wire Wire Line
+	2900 6350 3500 6350
+Text Label 2900 6350 0    50   ~ 0
+3P3V
+Wire Wire Line
+	4000 6350 4600 6350
+Text Label 4600 6350 2    50   ~ 0
+3P3V
+NoConn ~ 4000 5850
+NoConn ~ 4000 5950
+NoConn ~ 4000 6050
+NoConn ~ 4000 6150
+$Comp
+L power:GND #PWR014
+U 1 1 5FBF8B9D
+P 4100 5250
+F 0 "#PWR014" H 4100 5000 50  0001 C CNN
+F 1 "GND" H 4105 5077 50  0000 C CNN
+F 2 "" H 4100 5250 50  0001 C CNN
+F 3 "" H 4100 5250 50  0001 C CNN
+	1    4100 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5FBF8B97
+P 3400 5250
+F 0 "#PWR011" H 3400 5000 50  0001 C CNN
+F 1 "GND" H 3405 5077 50  0000 C CNN
+F 2 "" H 3400 5250 50  0001 C CNN
+F 3 "" H 3400 5250 50  0001 C CNN
+	1    3400 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 5FC9AE12
+P 4100 6500
+F 0 "#PWR015" H 4100 6250 50  0001 C CNN
+F 1 "GND" H 4105 6327 50  0000 C CNN
+F 2 "" H 4100 6500 50  0001 C CNN
+F 3 "" H 4100 6500 50  0001 C CNN
+	1    4100 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5FC9AE18
+P 3400 6500
+F 0 "#PWR012" H 3400 6250 50  0001 C CNN
+F 1 "GND" H 3405 6327 50  0000 C CNN
+F 2 "" H 3400 6500 50  0001 C CNN
+F 3 "" H 3400 6500 50  0001 C CNN
+	1    3400 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 6250 3400 6250
+Wire Wire Line
+	3400 6250 3400 6500
+Wire Wire Line
+	4100 6250 4100 6500
+Wire Wire Line
+	4000 6250 4100 6250
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FAA78E4
+P 800 7300
+F 0 "H2" H 900 7346 50  0000 L CNN
+F 1 "MountingHole" H 900 7255 50  0000 L CNN
+F 2 "MPAD" H 800 7300 50  0001 C CNN
+F 3 "~" H 800 7300 50  0001 C CNN
+	1    800  7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5FAAD684
+P 800 7050
+F 0 "H3" H 900 7096 50  0000 L CNN
+F 1 "MountingHole" H 900 7005 50  0000 L CNN
+F 2 "MPAD" H 800 7050 50  0001 C CNN
+F 3 "~" H 800 7050 50  0001 C CNN
+	1    800  7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5FAB3473
+P 1700 7550
+F 0 "H4" H 1800 7596 50  0000 L CNN
+F 1 "MountingHole" H 1800 7505 50  0000 L CNN
+F 2 "MPAD" H 1700 7550 50  0001 C CNN
+F 3 "~" H 1700 7550 50  0001 C CNN
+	1    1700 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5FAB91FD
+P 1700 7300
+F 0 "H5" H 1800 7346 50  0000 L CNN
+F 1 "MountingHole" H 1800 7255 50  0000 L CNN
+F 2 "MPAD" H 1700 7300 50  0001 C CNN
+F 3 "~" H 1700 7300 50  0001 C CNN
+	1    1700 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5FABEFD1
+P 1700 7050
+F 0 "H6" H 1800 7096 50  0000 L CNN
+F 1 "MountingHole" H 1800 7005 50  0000 L CNN
+F 2 "MPAD" H 1700 7050 50  0001 C CNN
+F 3 "~" H 1700 7050 50  0001 C CNN
+	1    1700 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogicBoardsSympbols:1x2_Conn J19
+U 1 1 5FAC99F7
+P 10000 5200
+F 0 "J19" H 10130 5696 50  0000 L CNN
+F 1 "D3P3V" H 10130 5605 50  0000 L CNN
+F 2 "quicklogicBoards-footprints:1x2_Conn" H 10000 5900 50  0001 C CNN
+F 3 "" H 10000 5900 50  0001 C CNN
+	1    10000 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogicBoardsSympbols:1x2_Conn J20
+U 1 1 5FACF815
+P 10000 5800
+F 0 "J20" H 10130 6296 50  0000 L CNN
+F 1 "H3P3V" H 10130 6205 50  0000 L CNN
+F 2 "quicklogicBoards-footprints:1x2_Conn" H 10000 6500 50  0001 C CNN
+F 3 "" H 10000 6500 50  0001 C CNN
+	1    10000 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 4700 9800 4700
+Text Label 9200 4700 0    50   ~ 0
+H3P3V
+Wire Wire Line
+	9200 5300 9800 5300
+Text Label 9200 5300 0    50   ~ 0
+D3P3V
+Wire Wire Line
+	9200 4800 9800 4800
+Text Label 9200 4800 0    50   ~ 0
+3P3V
+Wire Wire Line
+	9200 5400 9800 5400
+Text Label 9200 5400 0    50   ~ 0
+3P3V
+$Comp
+L quicklogicBoardsSympbols:1x4_Conn J16
+U 1 1 5FAF6DF1
+P 8250 4300
+F 0 "J16" H 8330 4800 50  0000 L CNN
+F 1 "GND" H 8330 4709 50  0000 L CNN
+F 2 "quicklogicBoards-footprints:1x4_Conn" H 8250 5000 50  0001 C CNN
+F 3 "" H 8250 5000 50  0001 C CNN
+	1    8250 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 5FAFD130
+P 7850 4100
+F 0 "#PWR017" H 7850 3850 50  0001 C CNN
+F 1 "GND" H 7855 3927 50  0000 C CNN
+F 2 "" H 7850 4100 50  0001 C CNN
+F 3 "" H 7850 4100 50  0001 C CNN
+	1    7850 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 4000 7850 4000
+Wire Wire Line
+	7850 4000 7850 4100
+Wire Wire Line
+	8050 3900 7850 3900
+Wire Wire Line
+	7850 3900 7850 4000
+Connection ~ 7850 4000
+Wire Wire Line
+	8050 3800 7850 3800
+Wire Wire Line
+	7850 3800 7850 3900
+Connection ~ 7850 3900
+Wire Wire Line
+	8050 3700 7850 3700
+Wire Wire Line
+	7850 3700 7850 3800
+Connection ~ 7850 3800
+Wire Wire Line
+	10400 1600 11000 1600
+Text Label 11000 1600 2    50   ~ 0
+PDM_CLK
+Wire Wire Line
+	8400 1600 9000 1600
+Text Label 8400 1600 0    50   ~ 0
+PDM_DATA
+Wire Wire Line
+	8400 2800 9000 2800
+Text Label 8400 2800 0    50   ~ 0
+SPIm_CLK
+Wire Wire Line
+	8400 2900 9000 2900
+Text Label 8400 2900 0    50   ~ 0
+SPIm_MOSI
+Wire Wire Line
+	8400 3000 9000 3000
+Text Label 8400 3000 0    50   ~ 0
+SPIm_MISO
+Wire Wire Line
+	10400 2300 11000 2300
+Text Label 11000 2300 2    50   ~ 0
+SPIm_CS2n
+Wire Wire Line
+	8400 2400 9000 2400
+Text Label 8400 2400 0    50   ~ 0
+RC_DEMO
+Wire Wire Line
+	8400 1200 9000 1200
+Text Label 8400 1200 0    50   ~ 0
+eSPI_MISO
+Wire Wire Line
+	8400 1100 9000 1100
+Text Label 8400 1100 0    50   ~ 0
+eSPI_CLK
+Wire Wire Line
+	10400 1100 11000 1100
+Text Label 11000 1100 2    50   ~ 0
+eSPI_CSn
+Wire Wire Line
+	8400 1000 9000 1000
+Text Label 8400 1000 0    50   ~ 0
+eSPI_MOSI
+Wire Wire Line
+	10400 2500 11000 2500
+Text Label 11000 2500 2    50   ~ 0
+D_SCL1
+Wire Wire Line
+	10400 2400 11000 2400
+Text Label 11000 2400 2    50   ~ 0
+D_SDA1
+Wire Wire Line
+	8400 2500 9000 2500
+Text Label 8400 2500 0    50   ~ 0
+WOS
+Wire Wire Line
+	8400 2700 9000 2700
+Text Label 8400 2700 0    50   ~ 0
+INT1
+NoConn ~ 1750 3700
+Wire Wire Line
+	7400 3200 8000 3200
+Text Label 8000 3200 2    50   ~ 0
+H_SCL
+Wire Wire Line
+	7400 3300 8000 3300
+Text Label 8000 3300 2    50   ~ 0
+H_SDA
+$Comp
+L quicklogicBoardsSympbols:1x4_Conn J17
+U 1 1 5FC5C223
+P 8250 5350
+F 0 "J17" H 8330 5850 50  0000 L CNN
+F 1 "SDA1" H 8330 5759 50  0000 L CNN
+F 2 "quicklogicBoards-footprints:1x4_Conn" H 8250 6050 50  0001 C CNN
+F 3 "" H 8250 6050 50  0001 C CNN
+	1    8250 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L quicklogicBoardsSympbols:1x4_Conn J14
+U 1 1 5FC65961
+P 7050 5350
+F 0 "J14" H 7130 5850 50  0000 L CNN
+F 1 "SCL1" H 7130 5759 50  0000 L CNN
+F 2 "quicklogicBoards-footprints:1x4_Conn" H 7050 6050 50  0001 C CNN
+F 3 "" H 7050 6050 50  0001 C CNN
+	1    7050 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 4750 8050 4750
+Text Label 7450 4750 0    50   ~ 0
+H_SDA
+Wire Wire Line
+	7450 5050 8050 5050
+Text Label 7450 5050 0    50   ~ 0
+E_SDA
+Wire Wire Line
+	6250 4750 6850 4750
+Text Label 6250 4750 0    50   ~ 0
+H_SCL
+Wire Wire Line
+	6250 5050 6850 5050
+Text Label 6250 5050 0    50   ~ 0
+E_SCL
+Wire Wire Line
+	8050 4850 8000 4850
+Wire Wire Line
+	8000 4850 8000 4900
+Wire Wire Line
+	8000 4950 8050 4950
+Wire Wire Line
+	6850 4850 6800 4850
+Wire Wire Line
+	6800 4850 6800 4900
+Wire Wire Line
+	6800 4950 6850 4950
+Wire Wire Line
+	6250 4900 6800 4900
+Connection ~ 6800 4900
+Wire Wire Line
+	6800 4900 6800 4950
+Wire Wire Line
+	7450 4900 8000 4900
+Connection ~ 8000 4900
+Wire Wire Line
+	8000 4900 8000 4950
+Text Label 7450 4900 0    50   ~ 0
+D_SDA1
+Text Label 6250 4900 0    50   ~ 0
+D_SCL1
+$Comp
+L quicklogicBoardsSympbols:1x2_Conn J21
+U 1 1 5FD0129F
+P 10000 6450
+F 0 "J21" H 10130 6946 50  0000 L CNN
+F 1 "EXT" H 10130 6855 50  0000 L CNN
+F 2 "quicklogicBoards-footprints:1x2_Conn" H 10000 7150 50  0001 C CNN
+F 3 "" H 10000 7150 50  0001 C CNN
+	1    10000 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 5950 9800 5950
+Text Label 9200 5950 0    50   ~ 0
+3P3V
+$Comp
+L power:GND #PWR018
+U 1 1 5FD1599B
+P 9600 6150
+F 0 "#PWR018" H 9600 5900 50  0001 C CNN
+F 1 "GND" H 9605 5977 50  0000 C CNN
+F 2 "" H 9600 6150 50  0001 C CNN
+F 3 "" H 9600 6150 50  0001 C CNN
+	1    9600 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 6050 9600 6050
+Wire Wire Line
+	9600 6050 9600 6150
+$Comp
+L quicklogicBoardsSympbols:1x4_Conn J12
+U 1 1 5FE47589
+P 5500 4300
+F 0 "J12" H 5450 5000 50  0000 L CNN
+F 1 "SCL_PU" H 5400 4500 50  0000 L CNN
+F 2 "quicklogicBoards-footprints:1x4_Conn" H 5500 5000 50  0001 C CNN
+F 3 "" H 5500 5000 50  0001 C CNN
+	1    5500 4300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5300 3800
+NoConn ~ 5300 3900
+Wire Wire Line
+	4700 3700 5300 3700
+Text Label 4700 3700 0    50   ~ 0
+3P3V
+Wire Wire Line
+	4700 4000 5300 4000
+Text Label 4700 4000 0    50   ~ 0
+D_SCL1
+$Comp
+L quicklogicBoardsSympbols:1x4_Conn J13
+U 1 1 5FE7CF1A
+P 5500 5000
+F 0 "J13" H 5450 5700 50  0000 L CNN
+F 1 "SDA_PU" H 5400 5200 50  0000 L CNN
+F 2 "quicklogicBoards-footprints:1x4_Conn" H 5500 5700 50  0001 C CNN
+F 3 "" H 5500 5700 50  0001 C CNN
+	1    5500 5000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5300 4500
+NoConn ~ 5300 4600
+Wire Wire Line
+	4700 4400 5300 4400
+Text Label 4700 4400 0    50   ~ 0
+3P3V
+Wire Wire Line
+	4700 4700 5300 4700
+Text Label 4700 4700 0    50   ~ 0
+D_SDA1
+$Comp
+L quicklogicBoardsSympbols:1x4_Conn J18
+U 1 1 5FE88376
+P 8250 6100
+F 0 "J18" H 8200 6800 50  0000 L CNN
+F 1 "SDA_PU" H 8150 6300 50  0000 L CNN
+F 2 "quicklogicBoards-footprints:1x4_Conn" H 8250 6800 50  0001 C CNN
+F 3 "" H 8250 6800 50  0001 C CNN
+	1    8250 6100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8050 5600
+NoConn ~ 8050 5700
+Wire Wire Line
+	7450 5500 8050 5500
+Text Label 7450 5500 0    50   ~ 0
+3P3V
+Wire Wire Line
+	7450 5800 8050 5800
+Text Label 7450 5800 0    50   ~ 0
+D_SDA0
+$Comp
+L quicklogicBoardsSympbols:1x4_Conn J15
+U 1 1 5FEB5F48
+P 7050 6100
+F 0 "J15" H 7000 6800 50  0000 L CNN
+F 1 "SCL_PU" H 6950 6300 50  0000 L CNN
+F 2 "quicklogicBoards-footprints:1x4_Conn" H 7050 6800 50  0001 C CNN
+F 3 "" H 7050 6800 50  0001 C CNN
+	1    7050 6100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6850 5600
+NoConn ~ 6850 5700
+Wire Wire Line
+	6250 5500 6850 5500
+Text Label 6250 5500 0    50   ~ 0
+3P3V
+Wire Wire Line
+	6250 5800 6850 5800
+Text Label 6250 5800 0    50   ~ 0
+D_SCL0
+$Comp
+L quicklogicBoardsSympbols:1x2_Conn J22
+U 1 1 5FED22A3
+P 1950 3400
+F 0 "J22" H 2080 3896 50  0000 L CNN
+F 1 "H3V" H 2080 3805 50  0000 L CNN
+F 2 "quicklogicBoards-footprints:1x2_Conn" H 1950 4100 50  0001 C CNN
+F 3 "" H 1950 4100 50  0001 C CNN
+	1    1950 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 2900 1750 2900
+Text Label 1150 2900 0    50   ~ 0
+H3V
+Wire Wire Line
+	1150 3000 1750 3000
+Text Label 1150 3000 0    50   ~ 0
+3P3V
+Wire Wire Line
+	4000 5100 4600 5100
+Text Label 4600 5100 2    50   ~ 0
+D_SCL0
+Wire Wire Line
+	4000 5000 4600 5000
+Text Label 4600 5000 2    50   ~ 0
+D_SDA0
+$Comp
+L quicklogicBoardsSympbols:1x2_Conn J23
+U 1 1 5FF28F0B
+P 5500 6000
+F 0 "J23" H 5630 6496 50  0000 L CNN
+F 1 "DEMO" H 5630 6405 50  0000 L CNN
+F 2 "quicklogicBoards-footprints:1x2_Conn" H 5500 6700 50  0001 C CNN
+F 3 "" H 5500 6700 50  0001 C CNN
+	1    5500 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 5500 5300 5500
+Text Label 4700 5500 0    50   ~ 0
+RC_DEMO
+$Comp
+L power:GND #PWR019
+U 1 1 5FF28F13
+P 5100 5700
+F 0 "#PWR019" H 5100 5450 50  0001 C CNN
+F 1 "GND" H 5105 5527 50  0000 C CNN
+F 2 "" H 5100 5700 50  0001 C CNN
+F 3 "" H 5100 5700 50  0001 C CNN
+	1    5100 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5600 5100 5600
+Wire Wire Line
+	5100 5600 5100 5700
+Wire Wire Line
+	10400 3300 11000 3300
+Text Label 11000 3300 2    50   ~ 0
+D_SDA0
+Wire Wire Line
+	10400 3200 11000 3200
+Text Label 11000 3200 2    50   ~ 0
+D_SCL0
+Wire Wire Line
+	1150 3800 1750 3800
+Text Label 1150 3800 0    50   ~ 0
+D_SCL0
+Wire Wire Line
+	1150 3900 1750 3900
+Text Label 1150 3900 0    50   ~ 0
+D_SDA0
 $EndSCHEMATC
