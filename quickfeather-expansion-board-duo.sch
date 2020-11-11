@@ -18,7 +18,7 @@ L quicklogicBoardsSympbols:QuickFeather J1
 U 1 1 5F99F9F5
 P 6100 3400
 F 0 "J1" H 6700 6165 50  0000 C CNN
-F 1 "QuickFeather" H 6700 6074 50  0000 C CNN
+F 1 "QF HOST" H 6700 6074 50  0000 C CNN
 F 2 "quicklogicBoards-footprints:quickfeather" H 6700 6100 50  0001 C CNN
 F 3 "" H 6700 6100 50  0001 C CNN
 	1    6100 3400
@@ -29,7 +29,7 @@ L quicklogicBoardsSympbols:QuickFeather J4
 U 1 1 5F9A0FF2
 P 9100 3400
 F 0 "J4" H 9700 6165 50  0000 C CNN
-F 1 "QuickFeather" H 9700 6074 50  0000 C CNN
+F 1 "QF DEVICE" H 9700 6074 50  0000 C CNN
 F 2 "quicklogicBoards-footprints:quickfeather" H 9700 6100 50  0001 C CNN
 F 3 "" H 9700 6100 50  0001 C CNN
 	1    9100 3400
@@ -108,10 +108,6 @@ Wire Wire Line
 	5400 2400 6000 2400
 Text Label 5400 2400 0    50   ~ 0
 H2D_ACK
-Wire Wire Line
-	5400 900  6000 900 
-Text Label 5400 900  0    50   ~ 0
-H3P3V
 $Comp
 L power:GND #PWR02
 U 1 1 5F9A43C0
@@ -165,7 +161,6 @@ NoConn ~ 6000 1400
 NoConn ~ 6000 1500
 NoConn ~ 6000 1600
 NoConn ~ 6000 1800
-NoConn ~ 6000 1900
 NoConn ~ 6000 2000
 NoConn ~ 6000 2200
 NoConn ~ 6000 2300
@@ -254,7 +249,6 @@ Wire Wire Line
 	10400 1300 11000 1300
 Text Label 11000 1300 2    50   ~ 0
 I2S_CLK
-NoConn ~ 9000 1900
 NoConn ~ 9000 2000
 NoConn ~ 9000 2200
 NoConn ~ 9000 2300
@@ -372,7 +366,7 @@ L quicklogicBoardsSympbols:huzzah32 J8
 U 1 1 5FAA3496
 P 3150 2550
 F 0 "J8" H 3750 4465 50  0000 C CNN
-F 1 "huzzah32" H 3750 4374 50  0000 C CNN
+F 1 "HUZZAH32-QWIIC" H 3750 4374 50  0000 C CNN
 F 2 "quicklogicBoards-footprints:huzzah32" H 3725 4375 50  0001 C CNN
 F 3 "" H 3725 4375 50  0001 C CNN
 	1    3150 2550
@@ -522,10 +516,6 @@ NoConn ~ 3050 1650
 NoConn ~ 3050 2250
 NoConn ~ 3050 2350
 NoConn ~ 3050 2450
-Wire Wire Line
-	8400 900  9000 900 
-Text Label 8400 900  0    50   ~ 0
-D3P3V
 $Comp
 L power:GND #PWR016
 U 1 1 5FB40F41
@@ -798,33 +788,11 @@ F 3 "~" H 1700 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H5
-U 1 1 5FAB91FD
-P 1700 7300
-F 0 "H5" H 1800 7346 50  0000 L CNN
-F 1 "MountingHole" H 1800 7255 50  0000 L CNN
-F 2 "MPAD" H 1700 7300 50  0001 C CNN
-F 3 "~" H 1700 7300 50  0001 C CNN
-	1    1700 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H6
-U 1 1 5FABEFD1
-P 1700 7050
-F 0 "H6" H 1800 7096 50  0000 L CNN
-F 1 "MountingHole" H 1800 7005 50  0000 L CNN
-F 2 "MPAD" H 1700 7050 50  0001 C CNN
-F 3 "~" H 1700 7050 50  0001 C CNN
-	1    1700 7050
-	1    0    0    -1  
-$EndComp
-$Comp
 L quicklogicBoardsSympbols:1x2_Conn J19
 U 1 1 5FAC99F7
 P 10000 5200
 F 0 "J19" H 10130 5696 50  0000 L CNN
-F 1 "D3P3V" H 10130 5605 50  0000 L CNN
+F 1 "H3P3V" H 10130 5605 50  0000 L CNN
 F 2 "quicklogicBoards-footprints:1x2_Conn" H 10000 5900 50  0001 C CNN
 F 3 "" H 10000 5900 50  0001 C CNN
 	1    10000 5200
@@ -835,7 +803,7 @@ L quicklogicBoardsSympbols:1x2_Conn J20
 U 1 1 5FACF815
 P 10000 5800
 F 0 "J20" H 10130 6296 50  0000 L CNN
-F 1 "H3P3V" H 10130 6205 50  0000 L CNN
+F 1 "D3P3V" H 10130 6205 50  0000 L CNN
 F 2 "quicklogicBoards-footprints:1x2_Conn" H 10000 6500 50  0001 C CNN
 F 3 "" H 10000 6500 50  0001 C CNN
 	1    10000 5800
@@ -1066,7 +1034,7 @@ L quicklogicBoardsSympbols:1x4_Conn J12
 U 1 1 5FE47589
 P 5500 4300
 F 0 "J12" H 5450 5000 50  0000 L CNN
-F 1 "SCL_PU" H 5400 4500 50  0000 L CNN
+F 1 "SCL1_PU" H 5400 4500 50  0000 L CNN
 F 2 "quicklogicBoards-footprints:1x4_Conn" H 5500 5000 50  0001 C CNN
 F 3 "" H 5500 5000 50  0001 C CNN
 	1    5500 4300
@@ -1087,7 +1055,7 @@ L quicklogicBoardsSympbols:1x4_Conn J13
 U 1 1 5FE7CF1A
 P 5500 5000
 F 0 "J13" H 5450 5700 50  0000 L CNN
-F 1 "SDA_PU" H 5400 5200 50  0000 L CNN
+F 1 "SDA1_PU" H 5400 5200 50  0000 L CNN
 F 2 "quicklogicBoards-footprints:1x4_Conn" H 5500 5700 50  0001 C CNN
 F 3 "" H 5500 5700 50  0001 C CNN
 	1    5500 5000
@@ -1108,7 +1076,7 @@ L quicklogicBoardsSympbols:1x4_Conn J18
 U 1 1 5FE88376
 P 8250 6100
 F 0 "J18" H 8200 6800 50  0000 L CNN
-F 1 "SDA_PU" H 8150 6300 50  0000 L CNN
+F 1 "SDA0_PU" H 8150 6300 50  0000 L CNN
 F 2 "quicklogicBoards-footprints:1x4_Conn" H 8250 6800 50  0001 C CNN
 F 3 "" H 8250 6800 50  0001 C CNN
 	1    8250 6100
@@ -1129,7 +1097,7 @@ L quicklogicBoardsSympbols:1x4_Conn J15
 U 1 1 5FEB5F48
 P 7050 6100
 F 0 "J15" H 7000 6800 50  0000 L CNN
-F 1 "SCL_PU" H 6950 6300 50  0000 L CNN
+F 1 "SCL0_PU" H 6950 6300 50  0000 L CNN
 F 2 "quicklogicBoards-footprints:1x4_Conn" H 7050 6800 50  0001 C CNN
 F 3 "" H 7050 6800 50  0001 C CNN
 	1    7050 6100
@@ -1218,4 +1186,25 @@ Wire Wire Line
 	1150 3900 1750 3900
 Text Label 1150 3900 0    50   ~ 0
 D_SDA0
+Wire Wire Line
+	5400 1900 6000 1900
+Text Label 5400 1900 0    50   ~ 0
+H3P3V
+NoConn ~ 6000 900 
+Wire Wire Line
+	8400 1900 9000 1900
+Text Label 8400 1900 0    50   ~ 0
+D3P3V
+NoConn ~ 9000 900 
+$Comp
+L quicklogicBoardsSympbols:ql_logo N1
+U 1 1 5FAC1E49
+P 5100 6950
+F 0 "N1" H 5294 6998 50  0000 L CNN
+F 1 "ql_logo" H 5294 6907 50  0000 L CNN
+F 2 "quicklogicBoards-footprints:Ql_logo" H 5294 6816 50  0000 L CNN
+F 3 "" H 5100 6950 50  0001 C CNN
+	1    5100 6950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

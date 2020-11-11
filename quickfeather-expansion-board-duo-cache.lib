@@ -280,4 +280,16 @@ X A3/39 9 -100 900 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# quicklogicBoardsSympbols_ql_logo
+#
+DEF quicklogicBoardsSympbols_ql_logo N 0 40 Y Y 1 F N
+F0 "N" 20 40 50 H V C CNN
+F1 "quicklogicBoardsSympbols_ql_logo" 30 -150 50 H V C CNN
+F2 "quicklogicBoards-footprints:LOGO" 20 -240 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 30 -40 79 0 1 1 Logo Normal 0 C C
+ENDDRAW
+ENDDEF
+#
 #End Library
